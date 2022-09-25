@@ -1,0 +1,61 @@
+body{
+	background-color: rgb(118, 206, 242);
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.content{
+	display: flex;
+	margin: auto;
+	margin-top: 100px;
+	width: 550px;
+}
+
+/*design du formulaire de connexion*/
+.main{
+	background-color: #FFF;
+}
+#formulaire {
+	padding: 30px;
+}
+form h2{
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(66, 134, 245);
+}
+
+form label{
+	text-transform: uppercase;
+	color: rgb(65, 60, 68);
+}
+
+form .champ{
+	width: 100%;
+	padding:10px 3px;
+}
+
+.section{
+	display: flex;
+}
+.aside{
+	margin-right: 50px;
+}
+.link{
+	margin-left: 100px;
+}
+
+button{
+	width: 100%;
+	font-size: 2em;
+	background-color: rgb(66, 134, 245);
+	color: whitesmoke;
+	text-transform: uppercase;
+}
+/*design side bar*/
+
+#sidebar{
+	background-color: rgb(66, 134, 245);
+	padding: 15px;
+}

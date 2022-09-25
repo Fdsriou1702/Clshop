@@ -1,0 +1,158 @@
+/*intialisation de la page web*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+/*design du menu lateral*/
+#content .menu-lateral {
+	background-color: rgb(5, 68, 104);
+	height: 100%;
+	width: 250px;
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+
+}
+/*design du bloc de la section profil*/
+#content .menu-lateral .profil {
+	margin-bottom: 30px;
+	text-align: center;
+}
+#content .menu-lateral .profil img {
+	display: block;
+	width: 150 px;
+	height: 150px;
+	margin: auto;
+	border-radius: 50%;
+	border: 10px solid rgb(32, 44, 69);
+}
+#content .menu-lateral .profil h3 {
+	margin-top: 20px;
+	color: whitesmoke;
+}
+#content .menu-lateral .profil p {
+	color: #FFF;
+	font-style: italic;
+}
+/*design de la section liste des elements*/
+#content .menu-lateral ul li a {
+	display: block;
+	padding: 10px 30px;
+	font-size: 16px;
+	position: relative;
+	border-bottom: 1px solid #10558D;
+	color: rgb(241, 237, 237 );
+}
+/*animation au survol des elements*/
+#content .menu-lateral ul li a:hover, .active {
+	background-color: white;
+	color: #0C7DB1 !important;
+	border-right: 1px solid rgb(5,68,104);
+}
+/*design de la section contenu de la page*/
+.section{
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+.topBar{
+	background-color: rgb(23, 44, 69);
+	height: 50px;
+	padding: 0px 30px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.lien a{
+	font-size: 2.5em;
+	color: #FAFBFF;
+	font-weight: bold;
+}
+.lien a:hover{
+	font-size: 2.8em;
+	color: rgb(135, 233, 254);
+}
+/*design de la bannière*/
+.banner{
+	height: 210px;
+	background-color: rgb(7, 105, 185);
+	color: #FFF;
+}
+.titre{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding-top: 40px;
+	text-align: center;
+
+}
+.trait{
+	background-color: rgb(255, 255, 224);
+	width: 50%;
+	height: 10px;
+	margin: 15px auto 0 auto;
+}
+.btn{
+	text-align: center;
+	margin-top: 20px;
+}
+.btn button{
+	font-size: 1.6em;
+	padding: 10px;
+	color: darkblue;
+}
+.btn button:hover{
+	color: whitesmoke;
+	background-color: darkblue;
+}
+/*design de la section article du blog*/
+.blog{
+	height: 250px;
+	display: flex;
+	margin-top: 10px;
+	padding-top: 0px 30px;
+}
+.img_blog img{
+	width: 100%;	
+}
+.article{
+	margin-left: 20px;
+}
+.blog2{
+	height: 250px;
+	display: flex;
+	margin-top: -50px;
+}
+.img_blog2 img{
+	width: 100%;
+}
+.article2{
+	margin-left: 20px;
+}
+.inscription{
+	height: 210px;
+	background-color: blue;
+	color: #FFF;
+}
+.title{
+	font-size: 1.4em;
+	padding-top: 40px;
+	text-align: center;
+}
+.formulaire{
+	text-align: center;
+	justify-content: center;
+}
+.conseil{
+	text-align: center;
+}
+
+
+
+
+
+
+
+

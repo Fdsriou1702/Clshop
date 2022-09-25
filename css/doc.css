@@ -1,0 +1,58 @@
+/*intialisation de la page web*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+#contenu .menu {
+	background-color: indianred;
+	height:600px;
+	width: 250px;
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	position: fixed;
+
+}
+
+#contenu .menu ul li a {
+	display: block;
+	padding: 6px 10px;
+	font-size: 16px;
+	position: relative;
+	border-bottom: 1px solid #10558D;
+	color: rgb(241, 237, 237 );
+}
+/*animation au survol des elements*/
+#contenu .menu ul li a:hover, .active {
+	background-color: white;
+	color: #0C7DB1 !important;
+	border-right: 1px solid rgb(5,68,104);
+}
+
+
+/*design de la section contenu de la page*/
+.section{
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+.objectif{
+	background-color: rgb(23, 44, 69);
+	height: 50px;
+	padding: 0px 30px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 2em;
+	color: white;
+	font-weight: bold;
+}
+h3{
+	color: blue;
+	font-weight: bold;
+}
+
